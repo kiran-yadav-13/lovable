@@ -3,7 +3,7 @@ import { HeroSection } from "@/components/sections/hero-section"
 import { FeaturedWishlistsSection } from "@/components/sections/featured-wishlists"
 import { TrustedPartnersSection } from "@/components/sections/trusted-partners"
 import { VerificationProcessSection } from "@/components/sections/verification-process"
-import { SuccessStoriesSection } from "@/components/sections/success-stories"
+import { SuccessStories } from "@/components/sections/success-stories"
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <FeaturedWishlistsSection />
       <TrustedPartnersSection />
       <VerificationProcessSection />
-      <SuccessStoriesSection />
+      <SuccessStories />
     </motion.div>
   );
 };
